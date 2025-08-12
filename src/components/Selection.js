@@ -7,9 +7,8 @@ export default function Selection({ applyColor }) {
     applyColor(updateSelectionStyle);
   }
   return (
-    <div id="box" style={{ ...selectionStyle }} onClick={handleClick}>
+    <div id="box" className="fix-box" style={{ ...selectionStyle }} onClick={handleClick}>
       <p>Selection</p>
     </div>
   );
 }
-
