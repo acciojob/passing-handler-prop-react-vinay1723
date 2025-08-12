@@ -60,13 +60,12 @@ button {
   justify-content: center;
 }
 
-#box {
+.fix-box {
   border: 1px solid black;
   width: 30%;
   margin: 20px;
 }
-
-#box > p {
+.fix-box > p {
   text-align: center;
   font-size: 20px;
   font-size: 500;
